@@ -1,0 +1,23 @@
+[
+    {
+        "customerId": 9000,
+        "productId": 5,
+        "status": 200,
+        "expectedStatus": 200,
+        "isValid": true
+    },
+    {
+        "customerId": 9001,
+        "productId": 4,
+        "status": 500,
+        "expectedStatus": 500,
+        "isValid": true
+    },
+    {
+        "customerId": 9002,
+        "productId": "3FOO",
+        "status": "foo",
+        "expectedStatus": 400,
+        "isValid": false
+    }
+]
